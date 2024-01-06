@@ -1,0 +1,18 @@
+# Project environment config files.
+.env
+
+# IDE config directories.
+.idea/
+.vscode/
+
+# Dependency directories.
+node_modules/
+vendor/
+
+# Binary directories.
+bin/
+
+# Temp and local cache directories.
+dist/
+tmp/
+.task/

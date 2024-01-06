@@ -1,0 +1,13 @@
+package pages
+
+import "github.com/ssss-tantalum/echo-templ-htmx/templates/layouts"
+
+templ Index(name string) {
+	@layouts.Base("Echo + HTMX + Templ Golang App") {
+		<div class="flex justify-center content-center">
+			<div>
+				<p class="text-5xl">Hello, { name }</p>
+			</div>
+		</div>
+	}
+}

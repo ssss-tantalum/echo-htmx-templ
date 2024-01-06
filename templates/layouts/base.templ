@@ -1,0 +1,19 @@
+package layouts
+
+templ Base(title string) {
+	<!DOCTYPE html>
+	<html lang="ja" data-theme="nord">
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link href="/static/tailwind.css" rel="stylesheet"/>
+			<script src="/static/htmx.min.js"></script>
+			<title>{ title }</title>
+		</head>
+		<body>
+			<main class="h-screen">
+				{ children... }
+			</main>
+		</body>
+	</html>
+}
